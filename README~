@@ -1,0 +1,9 @@
+Programas:
+MPI:
+	- hola.cpp
+	- sssend.c
+	- trap.c
+PThread:
+	- hello.c
+OpenMP:
+	- fibo.c

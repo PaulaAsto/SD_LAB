@@ -1,0 +1,16 @@
+Programas:
+MPI:
+	- hola.cpp
+	- sssend.c
+	- trap.c
+PThread:
+	- hello.c
+OpenMP:
+	- fibo.c
+
+AÑADIDOS:
+	- pong.c -> Thread mejorado
+	- integral.c -> MPI mejorado
+
+CUDA:
+	- add_matriz.c
