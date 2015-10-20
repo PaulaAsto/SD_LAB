@@ -1,0 +1,2 @@
+double circunferencia_circle(int radio);
+double area(int radio);

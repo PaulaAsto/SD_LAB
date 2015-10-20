@@ -1,0 +1,20 @@
+#include "circulo.h"
+
+double circunferencia_circle(int radio)
+{
+  double circ;
+
+  circ = 2*3.14*radio;
+  
+  return(circ);  
+}	
+
+double area(int radio)
+{
+  double are;
+
+  are = 3.14*(radio * radio);
+  
+  return(are); 
+
+}	

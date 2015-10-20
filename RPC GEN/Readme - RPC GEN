@@ -1,0 +1,13 @@
+Para la ejecución del codigo en el CLIENTE:
+>> gcc cliente_circulo.c server_circulo.c -o salida
+>> ./salida
+Para la ejecución del código en el SERVIDOR:
+>> rpcgen circulo.x
+- Elementos creados en SERVER por RPC- GEN
+	-- circulo.h -> Fichero de cabecera con constantes y las definiciones de las estructuras usadas como parámetro de entrada y como valores de salida
+	-- circulo_clnt.c -> Codigo C con la implementación del stub
+	-- circulo_svc.c -> Codigo C con la implementación del skeleton
+	-- circulo_xdr.c -> Codigo C con la implementación de las rutinas XDR para aplanar/desaplanar los argumentos y el valor de retorno
+
+>> gcc circulo_cliente.c circulo_server.c -o salida
+>> ./salida
